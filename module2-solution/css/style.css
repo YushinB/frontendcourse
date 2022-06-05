@@ -12,10 +12,6 @@ h1 {
     margin-bottom: 40px;
 }
 
-section {
-    float: left;
-}
-
   /* Simple Responsive Framework. */
 .row {
     width: 100%;
@@ -29,42 +25,28 @@ section {
     position: relative;
 }
 
+#p1, #p2, #p3 {
+  position: relative;
+  float: right;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  font-size: 125%;
+}
+
 #p1 {
     background-color: #FF7F50;
-    position: relative;
-    float: right;
-    top: 0px;
-    right: 0px;
-    width: 100px;
-    text-align: center;
-    font-weight: bold;
-    border: 1px solid #000000;
-    font-size: 125%;
   }
 #p2 {
     background-color: #A52A2A;
-    position: relative;
-    float: right;
-    top: 0px;
-    right: 0px;
-    width: 100px;
-    text-align: center;
-    font-weight: bold;
-    border: 1px solid #000000;
     color: #ffffff;
-    font-size: 125%;
 }
 #p3 {
     background-color: #dedb13;
-    position: relative;
-    float: right;
-    top: 0px;
-    right: 0px;
-    width: 100px;
-    text-align: center;
-    font-weight: bold;
-    border: 1px solid #000000;
-    font-size: 125%;
 }
 
 section {
